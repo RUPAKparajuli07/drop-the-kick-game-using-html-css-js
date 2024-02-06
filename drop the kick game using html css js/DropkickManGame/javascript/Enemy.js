@@ -9,7 +9,7 @@ class Enemy extends Component {
     color,
     isFinalBoss = false,
     ) {
-    super();
+    super(); 
     this.c = context;
     this.width = width;
     this.height = height;
