@@ -9,7 +9,7 @@ class Player extends Component {
     color,
     horizontalLimit,
     facingDirection = 'right'
-  ) {
+  ) { 
     super();
     this.c = context;
     this.width = width;
