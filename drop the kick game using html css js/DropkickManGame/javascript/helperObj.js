@@ -5,7 +5,7 @@ const helper = {
     inputStatusObj[17][0] = false;
     document.removeEventListener('keydown', handleMoveInputKeyDown);
     inputStatusObj[37][0] = false;
-    // inputStatusObj[38][0] = false;
+    // inputStatusObj[38][0] = false; 
     inputStatusObj[39][0] = false;
   },
   resumeInput() {
