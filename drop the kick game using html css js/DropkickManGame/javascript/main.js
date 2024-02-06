@@ -4,7 +4,7 @@ const context = document.getElementById('canvas').getContext('2d');
 element.width = 720;
 element.height = 600;
 
-let requestId;
+let requestId; 
 let lastFrameTimeMs = 0;
 const maxFPS = 61; // update this value to control maxFPS
 let delta = 0; // elapsed time since last update.
