@@ -1,6 +1,6 @@
 /* eslint-disable no-underscore-dangle */
 class Component {
-  constructor(context, posX, posY, width, height, color) {
+  constructor(context, posX, posY, width, height, color) { 
     this.c = context;
     this.width = width;
     this.height = height;
