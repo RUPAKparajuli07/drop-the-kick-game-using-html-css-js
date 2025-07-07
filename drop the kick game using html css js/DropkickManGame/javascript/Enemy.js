@@ -1,3 +1,26 @@
+/* eslint-disable no-underscore-dangle */
+class Enemy extends Component {
+  constructor(
+    context,
+    posX,
+    posY,
+    width,
+    height,
+    color,
+    isFinalBoss = false,
+    ) {
+    super(); 
+    this.c = context;
+    this.width = width;
+    this.height = height;
+    this.posX = posX;
+    this.posY = posY;
+    this.color = color;
+    this.isFinalBoss = isFinalBoss;
+
+    this.velocityX = 0.08; // tweak it.
+    this.velocityY = 0.4;
+  }
 
   move(delta) {
       this.posX -= this.velocityX * delta;
