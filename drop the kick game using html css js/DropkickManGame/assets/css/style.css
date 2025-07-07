@@ -1,3 +1,7 @@
+.canvas-container {
+  text-align: center;
+  background-color: tomato;
+}
 
 #canvas {
   background-color: rgb(30, 30, 30);
