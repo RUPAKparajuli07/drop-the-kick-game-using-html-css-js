@@ -1,4 +1,3 @@
-/* eslint-disable no-underscore-dangle */
 class Player extends Component {
   constructor(
     context,
