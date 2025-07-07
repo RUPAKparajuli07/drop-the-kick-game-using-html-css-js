@@ -1,5 +1,4 @@
-const element = document.getElementById('canvas');
-const context = document.getElementById('canvas').getContext('2d');
+
 
 element.width = 720;
 element.height = 600;
